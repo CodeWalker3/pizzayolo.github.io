@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{
+    font-family: 'Comfortaa', cursive;
+	margin: 0;
+	padding: 0;}
+header{
+    background-color: #333333;
+    width: 100%;
+    box-shadow: 10px 5px 5px black;
+}
+header a{
+    display: flex; 
+    justify-content: center;
+    color: white; 
+    align-items: center;
+    text-decoration: none;
+}
+.menu a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+.menu ul{
+    position: relative;
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    display: block;
+}
+.menu li{
+    font-size: 16;
+    margin-left: 20px;
+}
+
+.coi{
+    position: relative;
+    }
+.text-block{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    border-style: outset;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+footer{
+    font-size: medium;
+    color: white;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    background-color: #808000;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .text-block{
+      padding: 10px, 10px, 10px, 10px;
+    }
+    .card {
+        float: left;
+    }
+    .menu ul{
+        margin-right: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+  }
